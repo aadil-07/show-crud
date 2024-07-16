@@ -1,0 +1,411 @@
+*{
+    box-sizing: border-box;
+    gap:0px;
+    padding:0px;
+    background-color: rgba(10, 26, 45, 1);
+}
+/*header page*/
+.homec{
+    display:flex;
+    flex-direction:row;
+    gap:50px;
+    height:100px;
+    width:100vw;
+    align-items: center;
+}
+.home{
+    color:grey;
+   height:60px;
+   width:100px;
+   font-size:40px;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: none;
+}
+.home:hover{
+    text-decoration:underline;
+}
+.create_post{
+    color:grey;
+   height:60px;
+   width:200px;
+   font-size:40px;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: none;
+}
+.create_post:hover{
+    text-decoration:underline;
+}
+.view{
+    color:grey;
+   height:60px;
+   width:180px;
+   font-size:40px;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: none;
+}
+.view:hover{
+    text-decoration:underline;
+}
+/*index page*/
+.home-image{
+    height:60vh;
+    width:100vw;
+}
+
+/*create post page*/
+.createpost{
+    background-color: #FFFFFF;
+    height:60vh;
+    width:100vw;
+}
+.createpostform{
+    display:flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    gap:20px;
+    justify-content: space-around;
+}
+input{
+    color:white;
+}
+textarea{
+    background-color: white;
+   
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    
+    background-color: white;
+}
+.submit{
+    height:40px;
+    width:100px;
+    border-radius: 5px;
+    
+}
+.submit:hover{
+    opacity:0.5;
+}
+.New-post{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    width:100px;
+    background-color: white;
+}
+.makeresponsive{
+    background-color: white;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*view page*/
+
+
+/*post condition*/
+.index{
+    margin:0px;
+    padding:0px;
+    height:0px;
+    width:0px;
+    visibility: hidden;
+}
+
+.viewpage{
+    background-color: white;
+    height:fit-content;
+    width:100vw;
+}
+.form{
+    display:flex;
+    background-color:white;
+    height:30px;
+    width:100vh;
+    gap:10px;
+}
+.form1{
+    background-color: white;
+    width:5rem;
+    padding:0px;
+    height:30px;
+}
+.form2{
+    background-color: white;
+    height:30px;
+    width:5rem;
+}
+.button1{
+    margin:0px;
+    padding:0px;
+    height:30px;
+    width:5rem;
+    border-radius:10px;
+    margin-left:10px;
+    
+}
+.button2{
+    margin:0px;
+    padding:0px;
+    height:30px;
+    width:5rem;
+    border-radius:10px;
+    margin-left:10px;
+    
+}
+.delete{
+    margin:0px;
+    padding:0px;
+    color:white;
+    background-color:red;
+    height:27px;
+    font-size:20px;
+    border-radius:10px;
+
+    
+}
+.edit{
+    margin:0px;
+    padding:0px;
+    color:white;
+    background-color:blue;
+    height:27px;
+    font-size:20px;
+    border-radius:10px;
+
+    
+}
+.button1:hover{
+    opacity:0.5;
+   
+}
+.button2:hover{
+    opacity:0.5;
+   
+}
+.date{
+    background-color: white;
+    margin:0px;
+    padding:0px;
+    padding-left:10px;
+}
+.comment{
+    background-color: white;
+    margin:0px;
+    padding-left:10px;
+    max-width: 98vw;
+    word-wrap: break-word;
+}
+
+/*view page no post condition*/
+.nopost{
+    background-color: white;
+    height:60vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nopost p{
+   background-color: white;
+   color: rgba(0, 0, 0, 0.896);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size:100px;
+   
+}
+
+
+/*footer */
+footer{
+   
+    height:15vh;
+    width:100vw;
+}
+.copyright{
+    font-size:30px;
+    color:white;
+}
+/*add responsiveness*/
+@media (max-width:600px){
+    .homec{
+    
+        justify-content:space-around;
+    }
+    .home{
+       
+       height:60px;
+       width:80px;
+       font-size:30px;
+     
+    }
+    .create_post{
+       
+       height:60px;
+       width:150px;
+       font-size:30px;
+     
+    }
+    footer{
+   
+        height:10vh;
+        width:100vw;
+    }
+    .copyright{
+        font-size:20px;
+        color:white;
+    }
+    .view{
+     
+       height:60px;
+       width:150px;
+       font-size:30px;
+     
+    }
+   
+   
+    
+    
+}
+@media(max-width:1480px){
+    
+    textarea{
+        height:380px;
+        width:900px;
+    }
+}
+@media(max-width:1300px){
+    textarea{
+        height:380px;
+        width:750px;
+    }
+}
+@media(max-width:1200px){
+    textarea{
+        height:380px;
+        width:550px;
+    }
+    footer{
+   
+        height:10vh;
+        width:100vw;
+    }
+    .copyright{
+        font-size:25px;
+        color:white;
+    }
+}
+@media(max-width:1100px){
+    textarea{
+        height:380px;
+        width:450px;
+    }
+}
+@media(max-width:850px){
+    textarea{
+        height:380px;
+        width:350px;
+    }
+    .New-post{
+        font-size:20px;
+    }
+}
+
+@media(max-width:750px){
+    .submit{
+        height:30px;
+        width:70px;
+        border-radius: 5px;
+    }
+    label{
+        font-size:20px;
+    }
+}
+@media(max-width:650px){
+    textarea{
+        height:380px;
+        width:250px;
+    }
+    .submit{
+        height:20px;
+        width:50px;
+        border-radius: 5px;
+    }
+    .makeresponsive{
+        display:flex;
+        flex-direction: column;
+    }
+    
+}
+@media(max-width:460px){
+    textarea{
+        height:380px;
+        width:200px;
+    }
+    .submit{
+        height:15px;
+        width:40px;
+        border-radius: 5px;
+        font-size:10px;
+    }
+    .homec{
+        
+        gap:20px;
+    }
+    .home{
+       
+       height:60px;
+       width:100px;
+       font-size:25px;
+     
+    }
+    .create_post{
+       
+       height:60px;
+       width:100px;
+       font-size:25px;
+     
+    }
+    
+    .view{
+     
+       height:60px;
+       width:100px;
+       font-size:25px;
+     
+    }
+}
+@media(max-width:400px){
+    .homec{
+        gap:10px;
+    }
+    .home{
+       height:40px;
+       width:60px;
+       font-size:25px;
+     
+    }
+    .create_post{
+       
+       height:40px;
+       width:60px;
+       font-size:25px;
+     
+    }
+    
+    .view{
+     
+       height:40px;
+       width:60px;
+       font-size:25px;
+     
+    }
+}
